@@ -1,19 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - lowercase alphabets
  *
- * Return: Always 0 (success)
+ * Return: Always (success)
  */
 int main(void)
 {
 	char c;
 	
-	c = 'a';
-	while 
-		(c <= 'z') {
-			putchar(a);
-			c++;
-		}
+	c = 'a';c <='z';c++)
+	
 	putchar("\n");
 	return (0);
 }
