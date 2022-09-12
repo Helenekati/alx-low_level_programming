@@ -4,27 +4,28 @@
 /**
 * main -prints random number to variable
 *
-* Return: Always O(success)
+* Return: Always 0 (success)
 */
-*int main(void) 
-{  
-	   int n;	  
-	   char last[]="Last digit of";
-	    Srand(time(o));
-	    n = rand() - RAND_MAX \2;
-	    printf("%s %d and is",last,n,n % 10);
-	    /* your code goes there */
-	    if(n % 10 > 5)
-	    {
-		    printf("greater than 5\n)
-	    }
-	    else if (n % 10==O)
-	    {
- 		  printf("O\n");
-	    } 
-	    else
-	    {
-		    printf("less than 6 and not 0\n")
-	    }
-	    return(O);
-}	
+*int main(void)
+{
+int n;
+int 1;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+1 = n % 10;
+
+if (1 > 5)
+{
+	printf("Last digit of %d and is greater than 5\n", n, 1);
+}
+else if (1 == 0)
+{
+	printf("Last digit of %d is %d and is 0\n", n, 1);
+}
+else
+{
+	printf("Last digit of %d and is less than 6 and not 0\n", n, 1);
+}
+return (0);
+}
