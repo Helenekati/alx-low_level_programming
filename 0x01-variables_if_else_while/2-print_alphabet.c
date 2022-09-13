@@ -5,11 +5,12 @@
  * Return: Always (success)
  */
 int main(void)
+{ 
+char ch;
+for (ch = 'a' ; ch <= 'z'; ch++)
 {
-	char c;
-	
-	c = 'a';c <='z';c++)
-	
-	putchar("\n");
-	return (0);
+	putchar(ch);
+}
+putchar('\n');
+return (0);
 }
