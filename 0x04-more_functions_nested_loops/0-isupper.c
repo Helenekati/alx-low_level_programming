@@ -5,6 +5,7 @@
  *@c: character to be tested
  *Return: 1 whether it is, 0 otherwise
  */
+ /* on a separete _isupper */
 
 int _isupper(int c)	
 {
