@@ -4,6 +4,7 @@
  * rev_string - reverses a string
  * @s: string to be reversed
  */
+
 void rev_string(char *s)
 
 {
@@ -13,8 +14,7 @@ void rev_string(char *s)
 	len = 0;
 	len1 = 0;
 
-	while (s[len]; != '\0')
-
+	while (s[len] != '\0')
 	{
 		len++;
 	}
