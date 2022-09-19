@@ -5,17 +5,13 @@
  *@c: character to be tested
  *Return: 1 whether it is, 0 otherwise
  */
- /* on a separete _isupper */
+ /* _isupper */
 
 int _isupper(int c)	
 {
-
 if ((c >= 'A') && (c <= 'Z'))
-
 {
-
 	return (1);
 }
-
 	return (0);
 }
