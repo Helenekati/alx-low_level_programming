@@ -8,6 +8,7 @@
  *
  * Return: void
  */
+
 void print_opcodes(char *a, int n)
 
 {
@@ -30,6 +31,7 @@ void print_opcodes(char *a, int n)
  *
  * Return: always O
  */
+
 int main(int argc, char **argv)
 
 {
